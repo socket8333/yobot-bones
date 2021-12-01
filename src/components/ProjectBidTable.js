@@ -5,10 +5,10 @@ function ProjectBidTable() {
 
   return (
 
+    <div class="container mx-auto xl:max-w-7xl pb-10">
+   <div class="rounded-xl min-w-full  overflow-x-auto bg-gray-800  ">
 
-   <div class="rounded-xl min-w-full mt-6 overflow-x-auto bg-gray-800 border border-gray-700">
-
-      <table class="min-w-full text-sm align-middle">
+      <table class="min-w-full text-sm align-middle text-center">
 
       <thead>
         <tr class="bg-gray-700">
@@ -197,6 +197,7 @@ function ProjectBidTable() {
 
       </table>
 
+   </div>
    </div>
 
   )
