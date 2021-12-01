@@ -7,7 +7,7 @@ function ProjectDetails() {
 
 
 
- <div class="flex flex-col overflow-hidden bg-gray-700 rounded-xl shadow-sm sm:mx-4 sm:max-w-sm text-left ">
+ <div class="flex flex-col overflow-hidden bg-gray-700 rounded-xl shadow-sm sm:mx-0 sm:max-w-sm text-left ">
 
  <div class="flex-grow w-full p-5 space-y-4 ">
 {/* NFT image, title and description Start */}
