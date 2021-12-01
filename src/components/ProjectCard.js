@@ -1,5 +1,5 @@
 import React from 'react';
-
+import render from '../images/3drender.jpg'
 
 function ProjectCard() {
 
@@ -12,7 +12,7 @@ function ProjectCard() {
           class="block mb-5 -mx-2 -mt-2 transition duration-200 ease-out origin-bottom transform hover:scale-105 hover:shadow-xl active:shadow active:opacity-50"
         >
           <img
-            src="http://127.0.0.1:8080/images/3drender.jpg"
+            src={render}
             alt="Photo"
             class="inline-block rounded"
           />

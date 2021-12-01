@@ -15,9 +15,9 @@ function App() {
 
       <div>
         <NavBar/>
-        {/* <Main/> */}
+        <Main/>
         {/* <Dashboard/> */}
-        <ProjectGrid/>
+        {/* <ProjectGrid/> */}
       </div>
 
   );
