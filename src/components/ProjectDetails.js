@@ -4,13 +4,13 @@ import React from 'react';
 function ProjectDetails() {
 
   return (
-      <div>
 
 
- <div class="flex flex-col overflow-hidden bg-gray-700 rounded-xl shadow-sm sm:max-w-sm text-left ">
+
+ <div class="flex flex-col overflow-hidden bg-gray-700 rounded-xl shadow-sm sm:mx-0 sm:max-w-sm text-left ">
 
  <div class="flex-grow w-full p-5 space-y-4 ">
-
+{/* NFT image, title and description Start */}
    <div class="flex flex-col items-start">
 
      <img
@@ -26,7 +26,7 @@ function ProjectDetails() {
            href="javascript:void(0)"
            class="font-semibold text-gray-200 hover:text-indigo-400"
            >NFT Project Title</a
-         >
+>
          <span class="text-gray-500 sm:hidden">· 03h:13m:34s</span>
        </p>
        <p class="mb-2 text-sm">
@@ -40,12 +40,11 @@ function ProjectDetails() {
      </div>
 
    </div>
+{/* NFT image, title and description End */}
 
 
 
-
-
-
+{/* Countdown Start */}
 
    <div class="grid visible hidden grid-cols-1 gap-4 sm:inline-block">
 
@@ -70,10 +69,11 @@ function ProjectDetails() {
 
      </div>
 
+{/* Countdown End */}
 
 
 
-
+{/* Highest Bid Card Start */}
 
    <div class="grid grid-cols-2 ">
 
@@ -94,8 +94,9 @@ function ProjectDetails() {
 
      </div>
 
+{/* Highest Bid Card End */}
 
-
+{/* Total Bids Card Start */}
      <div class="flex flex-col overflow-hidden bg-gray-700 rounded shadow-sm">
 
        <div class="flex-grow w-full p-5">
@@ -110,8 +111,8 @@ function ProjectDetails() {
            </dd>
          </dl>
        </div>
-
      </div>
+{/* Total Bids Card End */}
 
    </div>
 
@@ -124,7 +125,7 @@ function ProjectDetails() {
 </div>
 
       </div>
-      </div>
+
   )
 }
 

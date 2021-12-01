@@ -6,7 +6,7 @@ function BidForm() {
   return (
 
 
-    <div class="px-5 sm:w-3/4 text-left rounded-xl">
+    <div class="px-5  sm:w-3/4 text-left rounded-xl">
       <p class="py-5  text-xl font-medium">Place Bids</p>
       <form onsubmit="return false;" class="space-y-6">
 

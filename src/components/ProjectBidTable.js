@@ -5,10 +5,10 @@ function ProjectBidTable() {
 
   return (
 
+    <div class="container mx-auto xl:max-w-7xl">
+   <div class="rounded-xl min-w-full  overflow-x-auto bg-gray-800  ">
 
-   <div class="rounded-xl min-w-full mt-6 overflow-x-auto bg-gray-800 border border-gray-700">
-
-      <table class="min-w-full text-sm align-middle">
+      <table class="min-w-full text-sm align-middle text-center">
 
       <thead>
         <tr class="bg-gray-700">
@@ -132,18 +132,18 @@ function ProjectBidTable() {
           <td class="hidden p-3 text-center text-gray-500 md:table-cell">
            0.4323452
          </td>
-          <td class="p-3 text-center">
+          <td class="p-3 text-center align-middle">
             <span
               class="inline-block w-4 h-4 bg-orange-300 rounded-full md:hidden"
               >&nbsp;</span
             >
             <div
-              class="hidden px-2 py-1 text-xs font-semibold leading-4 text-orange-700 bg-orange-200 rounded-full md:inline-block"
+              class=" px-2 py-1 text-xs font-semibold leading-4 text-orange-700 bg-orange-200 rounded-full md:inline-block"
             >
               Cancelled
             </div>
           </td>
-          <td class="hidden p-3 text-center text-gray-500 md:table-cell">
+          <td class=" p-3 text-center text-gray-500 md:table-cell">
            N/A
          </td>
           
@@ -197,6 +197,7 @@ function ProjectBidTable() {
 
       </table>
 
+   </div>
    </div>
 
   )
