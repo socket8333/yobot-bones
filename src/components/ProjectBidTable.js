@@ -6,7 +6,7 @@ function ProjectBidTable() {
   return (
 
     <div class="container mx-auto xl:max-w-7xl">
-   <div class="rounded-xl min-w-full  overflow-x-auto bg-gray-800  ">
+      <div class="rounded-xl min-w-full  overflow-x-auto bg-gray-800  ">
 
       <table class="min-w-full text-sm align-middle text-center">
 
