@@ -7,28 +7,28 @@ function DashboardProjectDetails() {
 
 
 
-    <div class="container  mx-auto xl:max-w-7xl  pt-6 pb-2">
+    <div className="container  mx-auto xl:max-w-7xl  pt-6 pb-2">
 
- <div class="flex  w-full p-5 space-y-4 bg-gray-700 rounded-xl shadow-sm  text-left overflow-hidden">
+ <div className="flex  w-full p-5 space-y-4 bg-gray-700 rounded-xl shadow-sm  text-left overflow-hidden">
 
     {/* NFT image, title and description Start */}
-      <div class="inline items-start sm:flex-row align-middle">
+      <div className="inline items-start sm:flex-row align-middle">
 
         <img
           src="https://source.unsplash.com/Jb9GwgUYQSI/600x400"
           alt="NFT Project Image"
-          class="flex-none inline-block w-full mb-3 sm:w-3/12"
+          className="flex-none inline-block w-full mb-3 sm:w-3/12"
         />
 
 
-        <div class="flex-grow text-lg">
-          <p class="mb-1">
+        <div className="flex-grow text-lg">
+          <p className="mb-1">
             <a
               href="javascript:void(0)"
-              class="font-semibold text-gray-200 hover:text-indigo-400"
+              className="font-semibold text-gray-200 hover:text-indigo-400"
               >NFT Project Title</a
     >
-            <span class="text-gray-500 sm:hidden">· 03h:13m:34s</span>
+            <span className="text-gray-500 sm:hidden">· 03h:13m:34s</span>
           </p>
 
 
@@ -44,14 +44,14 @@ function DashboardProjectDetails() {
 
     {/* ALL CARDS START */}
     
-      <div class="flex flex-row hidden gap-4">
+      <div className="flex flex-row hidden gap-4">
     {/* Countdown Start */}
 
-        <div class="flex flex-col overflow-hidden bg-gray-800 rounded shadow-sm">
+        <div className="flex flex-col overflow-hidden bg-gray-800 rounded shadow-sm">
 
-          <div class="flex-grow w-full p-5">
+          <div className="flex-grow w-full p-5">
             <dl>
-              <dt class="text-2xl font-semibold">
+              <dt className="text-2xl font-semibold">
                 <span>10h </span> 
 
                 <span>35m </span>
@@ -59,7 +59,7 @@ function DashboardProjectDetails() {
                 <span>23s</span>
               </dt>
               <dd
-                class="text-sm font-medium tracking-wider text-gray-500 uppercase"
+                className="text-sm font-medium tracking-wider text-gray-500 uppercase"
               >
                 Countdown to Mint
               </dd>
@@ -73,18 +73,18 @@ function DashboardProjectDetails() {
 
     {/* Combined highest bid and number of bids */}
 
-      <div class="grid grid-cols-2 ">
+      <div className="grid grid-cols-2 ">
     {/* Highest Bid Card Start */}
 
-        <div class="flex flex-col overflow-hidden bg-gray-700 rounded shadow-sm">
+        <div className="flex flex-col overflow-hidden bg-gray-700 rounded shadow-sm">
 
-          <div class="flex-grow w-full p-5">
+          <div className="flex-grow w-full p-5">
             <dl>
-              <dt class="text-2xl font-semibold">
+              <dt className="text-2xl font-semibold">
                 0.3323
               </dt>
               <dd
-                class="text-sm font-medium tracking-wider text-gray-500 uppercase"
+                className="text-sm font-medium tracking-wider text-gray-500 uppercase"
               >
                 Highest Bid
               </dd>
@@ -96,15 +96,15 @@ function DashboardProjectDetails() {
     {/* Highest Bid Card End */}
 
     {/* Total Bids Card Start */}
-        <div class="flex flex-col overflow-hidden bg-gray-700 rounded shadow-sm">
+        <div className="flex flex-col overflow-hidden bg-gray-700 rounded shadow-sm">
 
-          <div class="flex-grow w-full p-5">
+          <div className="flex-grow w-full p-5">
             <dl>
-              <dt class="text-2xl font-semibold">
+              <dt className="text-2xl font-semibold">
                 143
               </dt>
               <dd
-                class="text-sm font-medium tracking-wider text-gray-500 uppercase"
+                className="text-sm font-medium tracking-wider text-gray-500 uppercase"
               >
                 Total Bids
               </dd>

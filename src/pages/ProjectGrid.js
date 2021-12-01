@@ -5,7 +5,7 @@ import ProjectCardGrid from '../components/ProjectCardGrid';
 function Main() {
 
   return (
-      <div class="mt-4 sm:mt-10">
+      <div className="mt-4 sm:mt-10">
     <ProjectCardGrid/>
     </div>
    )
